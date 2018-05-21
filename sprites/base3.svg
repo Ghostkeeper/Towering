@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Towering: Tower defence game.
+Copyright (C) 2018 Ghostkeeper
+This game is free software: You can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This game is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTIBILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for details.
+You should have received a copy of the GNU Affero General Public License along with this game. If not, see <https://gnu.org/licenses/>.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192">
+	<!--
+	Top circle in the centre of the base.
+	-->
+	<defs>
+		<linearGradient id="building" x1="0%" y1="0%" x2="0%" y2="100%">
+			<stop offset="0%" stop-color="#A0A0A0" />
+			<stop offset="100%" stop-color="#808080" />
+		</linearGradient>
+		<pattern id="stripes" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+			<polygon points="0,0 0,8 8,0" fill="#606060" />
+			<polygon points="16,0 0,16 8,16 16,8" fill="#606060" />
+		</pattern>
+	</defs>
+	<circle cx="96" cy="96" r="64" fill="url(#building)" />
+	<circle cx="96" cy="96" r="48" fill="url(#stripes)" />
+</svg>

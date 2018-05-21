@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Towering: Tower defence game.
+Copyright (C) 2018 Ghostkeeper
+This game is free software: You can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This game is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTIBILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for details.
+You should have received a copy of the GNU Affero General Public License along with this game. If not, see <https://gnu.org/licenses/>.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192">
+	<!--
+	Blue background for pulsating circle.
+	This is used as well as an overlay, scaled from 80% to 100%, to revert to
+	the blue background after the lighter blue pulse has passed over it.
+	-->
+	<circle cx="96" cy="96" r="80" fill="#0040FF" />
+</svg>
