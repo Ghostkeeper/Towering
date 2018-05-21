@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Towering: Tower defence game.
+Copyright (C) 2018 Ghostkeeper
+This game is free software: You can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This game is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTIBILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for details.
+You should have received a copy of the GNU Affero General Public License along with this game. If not, see <https://gnu.org/licenses/>.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="87" height="64">
+	<!--
+	Turret that shoots metal bullets.
+	This sprite will get rotated in the direction that the turret is firing.
+	The sprite depicted here is pointed to the right.
+	-->
+	<defs>
+		<pattern id="stripes" width="8" height="16" patternUnits="userSpaceOnUse">
+			<rect width="4" height="16" fill="#A0A0A0" />
+			<rect width="4" height="16" x="4" fill="#909090" />
+		</pattern>
+		<linearGradient id="barrel" x1="0%" y1="0%" x2="0%" y2="100%">
+			<stop offset="0%" stop-color="#C0C0C0" />
+			<stop offset="100%" stop-color="#606060" />
+		</linearGradient>
+	</defs>
+
+	<circle cx="32" cy="32" r="26" fill="url(#stripes)" /> <!-- Striped base. -->
+	<rect x="40" y="28" width="40" height="8" fill="url(#barrel)" stroke="#507050" stroke-width="2" /> <!-- Barrel. -->
+	<rect x="80" y="26" width="6" height="12" fill="url(#barrel)" stroke="#507050" stroke-width="2" stroke-linejoin="round" /> <!-- Nozzle. -->
+	<polygon points="16,28 16,36 18,38 19,46 36,46 40,42 40,22 36,18 19,18 18,26" fill="#60C060" stroke="#20A020" stroke-width="2" stroke-linejoin="round" /> <!-- Turret hull. -->
+</svg>
