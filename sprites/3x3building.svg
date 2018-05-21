@@ -16,5 +16,5 @@ You should have received a copy of the GNU Affero General Public License along w
 			<stop offset="100%" stop-color="#808080" />
 		</linearGradient>
 	</defs>
-	<rect width="192" height="192" rx="32" ry="32" fill="url(#building)" />
+	<rect x="2" y="2" width="188" height="188" rx="32" ry="32" fill="url(#building)" stroke="#606060" stroke-width="4" />
 </svg>
