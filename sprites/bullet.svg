@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Towering: Tower defence game.
+Copyright (C) 2018 Ghostkeeper
+This game is free software: You can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This game is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTIBILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for details.
+You should have received a copy of the GNU Affero General Public License along with this game. If not, see <https://gnu.org/licenses/>.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="2">
+	<!--
+	Bullet shot by a turret.
+	This bullet is pointing to the right. It will be rotated in the direction
+	that the bullet is shot.
+	-->
+	<defs>
+		<linearGradient id="trail" x1="0%" y1="0%" x2="100%" y2="0%">
+			<stop offset="0%" stop-color="white" stop-opacity="0" />
+			<stop offset="100%" stop-color="white" stop-opacity="1" />
+		</linearGradient>
+	</defs>
+
+	<rect width="10" height="2" fill="url(#trail)" />
+	<rect x="10" width="2" height="2" fill="white" />
+</svg>
