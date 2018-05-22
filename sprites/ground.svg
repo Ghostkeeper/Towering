@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Towering: Tower defence game.
+Copyright (C) 2018 Ghostkeeper
+This game is free software: You can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This game is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTIBILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for details.
+You should have received a copy of the GNU Affero General Public License along with this game. If not, see <https://gnu.org/licenses/>.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="384" height="192">
+	<!--
+	This is a tile set of ground textures.
+	The tile set is designed in a grid of 64x64 units.
+	-->
+	<defs>
+		<pattern id="grass" width="64" height="64" patternUnits="userSpaceOnUse">
+			<rect width="64" height="64" fill="#60C060" />
+			<path d="M32,50 q-4,-12 -16,-16 q12,4 16,12 q2,-16 10,-16 q-8,8 -10,20" fill="#70D070" />
+			<path d="M18,40 q-4,-12 -8,-8 q4,-8 8,4 q2,-8 10,-8 q-8,4 -10,12" fill="#50B050" />
+			<path d="M40,18 l-8,-10 q8,0 8,6 q0,-4 6,-4" fill="#70B070" />
+		</pattern>
+	</defs>
+
+	<!-- Dirt in grass. -->
+	<rect width="192" height="192" fill="url(#grass)" />
+	<rect x="48" y="48" width="96" height="96" rx="16" ry="16" fill="#C0A060" stroke="#90E080" stroke-width="4" />
+
+	<!-- Grass in dirt. -->
+	<rect x="192" width="192" height="192" fill="#C0A060" />
+	<rect x="208" y="16" width="160" height="160" rx="16" ry="16" fill="url(#grass)" stroke="#90E080" stroke-width="4" />
+</svg>
