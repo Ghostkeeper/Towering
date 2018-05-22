@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Towering: Tower defence game.
+Copyright (C) 2018 Ghostkeeper
+This game is free software: You can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This game is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTIBILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for details.
+You should have received a copy of the GNU Affero General Public License along with this game. If not, see <https://gnu.org/licenses/>.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+	<!--
+	Basic enemy robot unit.
+	This robot will be rotated in the direction that the robot is walking.
+	The sprite is currently facing the right.
+	On this layer, only one arm and one foot is displayed. It will be animated
+	to move 4 pixels forwards and backwards to make the robot appear to be
+	walking.
+	-->
+	<rect x="5" y="13" width="6" height="3" rx="2" ry="2" fill="#909090" />
+	<rect x="4" y="3" width="8" height="5" fill="#909090" />
+</svg>
