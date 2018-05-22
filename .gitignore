@@ -1,0 +1,5 @@
+#Godot files
+*.import
+
+#Generated files
+sprites/*.png
